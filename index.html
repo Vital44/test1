@@ -2,96 +2,160 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Средства для уход</title>
+	<title>Барбершоп «Бородинский»</title>
 </head>
 <body>
 	<header class="main-header">
 		<div class="container">
-		<div class="logo">
-			<img src="img/index-logo" alt="Логотип">
+		<a class="logo" href="#">
+			<img src="unknown" width="" height="" alt="">
+			"Barbershop"
+		</a>
+		<nav class="main-navigation">
+			<ul>
+				<li><a href="#">Информация</a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="#">Прайс-лист</a></li>
+				<li><a href="#">Магазин</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</nav>	
+		<div class="sign-in">
+			<a class="login" href="#">Вход</a>
 		</div>
-			<nav class="main-navigation">
-				<ul>
-					<li>
-						<a href="#">Информация</a>
-					</li>
-					<li>
-						<a href="#">Новости</a>
-					</li>
-					<li>
-						<a href="#">Прайс-лист</a>
-					</li>
-					<li>
-						<a href="#">Магазин</a>
-					</li>
-					<li>
-						<a href="#">Контакты</a>
-					</li>
-				</ul>
-			</nav>
-			<div class="user-block">
-				<a class="login" href="#">Вход</a>
-			</div>
 		</div>
 	</header>
-	<main class="container">
-		<div>
-			<h1>Средства для ухода</h1>
+	<main>
+		<div class="container">
+			<div class="breadcrumbs">
+				<h1>Средства для ухода</h1>
+				<ul>
+					<li>
+						<a class="breadcrumbs-item" href="#">Главная</a>
+					</li>
+					<li>
+						<a class="breadcrumbs-item" href="#">Магазин</a>
+					</li>
+					<li>
+						<a class="breadcrumbs-item" href="#">Средства для ухода</a>
+					</li>
+				</ul>
+			</div>
+			<form>
+				<div class="form1">
+					<h2>Производители:</h2>
+					<label>
+					     Baxter of California
+						<input type="checkbox" name="Baxter of California" id="ch1">
+					</label>
+					<label>
+					     Mr Natty
+						<input type="checkbox" name="Mr Natty" id="ch2">
+					</label>
+					<label>
+					     Suavecito
+						<input type="checkbox" name="Suavecito" id="ch3">
+					</label>
+					<label>
+					     Malin+Goetz
+						<input type="checkbox" name="Malin+Goetz" id="ch4">
+					</label>
+					<label>
+					     Murray's
+						<input type="checkbox" name="Murray's" id="ch5">
+					</label>
+					<label>
+					     American Crew
+						<input type="checkbox" name="American Crew" id="ch6">
+					</label>
+					<button class="btn" type="submit">Показать</button>
+				</div>
+			</form>
+			<div class="catalog">
+				<div class="catalog-item">
+					<a>
+					<img src="unknown" alt="Товар">
+					</a>
+					<h3>Набор для путешествий «Baxter of California»</h3>
+					<span>2900 ₽</span>
+					<a href="#">Купить</a>
+				</div>
+				<div class="catalog-item">
+					<a>
+					<img src="unknown" alt="Товар">
+					</a>
+					<h3>Увлажняющий кондиционер «Baxter of California»</h3>
+					<span>750 ₽</span>
+					<a href="#">Купить</a>
+				</div>
+				<div class="catalog-item">
+					<a>
+					<img src="unknown" alt="Товар">
+					</a>
+					<h3>Гель для волос «Suavecito»</h3>
+					<span>290 ₽</span>
+					<a href="#">Купить</a>
+				</div>
+				<div class="catalog-item">
+					<a>
+					<img src="unknown" alt="Товар">
+					</a>
+					<h3>Глина для укладки волос «American Crew»</h3>
+					<span>500 ₽</span>
+					<a href="#">Купить</a>
+				</div>
+				<div class="catalog-item">
+				    <a>
+					<img src="unknown" alt="Товар">
+					</a>
+					<h3>Гель для волос «American Crew»</h3>
+					<span>300 ₽</span>
+					<a href="#">Купить</a>
+				</div>
+				<div class="catalog-item">
+					<a>
+					<img src="unknown" alt="Товар">
+					</a>
+					<h3>Набор для бритья «Baxter of California»</h3>
+					<span>3900 ₽</span>
+					<a href="#">Купить</a>
+					<div class="paginator">
+						<ul>
+							<li>
+								<a href="#">1</a>
+							</li>
+							<li>
+								<a href="#">2</a>
+							</li>
+							<li>
+								<a href="#">3</a>
+							</li>
+							<li>
+								<a href="#">4</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>
-		<section class="features">
-			<div class="features-item">
-				<b class="features-name">Главная</b>
-			</div>
-			<div class="features-item">
-				<b class="features-name">Магазин</b>
-			</div>
-			<div class="features-item">
-				<b class="features-name">Средства для ухода</b>
-			</div>
-		</section>
-		<div class="index-content">
-			<div class="index-content-left">
-				<h2>Производители:</h2>
-				<ul>
-					<input type="checkbox" name="Baxter of California" checked>BAXTER OF CALIFORNIA</input>
-				</ul>
-				<ul>
-					<input type="checkbox" name="MR NATTY">MR NATTY</input>
-				</ul>
-				<ul>
-					<input type="checkbox" name="SUAVECITO" checked>SUAVECITO</input>
-				</ul>
-				<ul>
-					<input type="checkbox" name="MALIN+GOETZ">MALIN+GOETZ</input>
-				</ul>
-				<ul>
-					<input type="checkbox" name="MURRAY'S">MURRAY'S</input>
-				</ul>
-				<ul>
-					<input type="checkbox" name="AMERICAN CREW" checked>AMERICAN CREW</input>
-				</ul>
-				<h2>группы товаров:</h2>
-				<ul>
-					<input type="radio" name="Бритвенные пренадлежности">
-						Бритвенные пренадлежности
-					</input>
-				</ul>
-				<ul>
-					<input type="radio" name="Средства для ухода" checked>
-						Средства для ухода
-					</input>
-				</ul>
-				<ul>
-					<input type="radio" name="Аксесуары">
-						Аксесуары
-					</input>
-				</ul>
-				<input type="submit" name="Показать" value="Показать">
-			</div>
-			<div class="index-content-right">
-			</div>
-		</div>
-		<p>!!!</p>
 	</main>
+	<footer class="main-footer">
+		<section class="footer-contact">
+			Барбершоп «Бородинский»<br>
+			Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+			<a href="#">Как нас найти?</a><br>
+			Телефон: +7 (495) 666-02-66
+		</section>
+		<section class="footer-social">
+			<p>Давайте дружить</p>
+			<a class="social-btn social-btn-vk" href="#"></a>
+			<a class="social-btn social-btn-fb" href="#"></a>
+			<a class="social-btn social-btn-inst" href="#"></a>
+		</section>
+		<section class="footer-copirite">
+			<p>Разработано</p>
+			<a class="btn" href="#">HTML Academy</a>
+		</section>
+	</footer>
 </body>
 </html>
